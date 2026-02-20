@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56b12c36-3e1d-48f4-b1e1-ff84b41f43bb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Game2048" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="394UcV16Oz2vvlB7ncXJfxRD9Ph" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CarFactory.executor": "Run",
+    "Application.CarTest.executor": "Run",
+    "Application.Demo0.executor": "Run",
+    "Application.DemoFrame.executor": "Run",
+    "Application.GameLayout (1).executor": "Run",
+    "Application.GameLayout.executor": "Run",
+    "Application.HelloWorld.executor": "Debug",
+    "Application.JavaFrameTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SayHello.executor": "Run",
+    "Application.StringToolBox.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Projects/JavaSE/Game2048/2048Demo0",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Projects/JavaSE/Game2048/first-test/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.sourceCode.JAVA",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\JavaSE\Game2048\2048Demo0" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.jkm.demo0" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CarTest">
+    <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.demo0.CarFactory" />
+      <module name="ExsistedMod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.demo0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.carfactory.CarTest" />
+      <module name="ExsistedMod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.carfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.demo0.CarTest" />
+      <module name="ExsistedMod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.demo0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.frame.DemoFrame" />
+      <module name="ExsistedMod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameLayout (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.game2048.GameLayout" />
+      <module name="2048Demo0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.game2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.game2048.GameLayout" />
+      <module name="ExsistedMod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.game2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="first-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFrameTest" />
+      <module name="first-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaFrameTest" />
+      <module name="first-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringToolBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringToolBox" />
+      <module name="first-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CarTest" />
+        <item itemvalue="Application.GameLayout (1)" />
+        <item itemvalue="Application.GameLayout" />
+        <item itemvalue="Application.DemoFrame" />
+        <item itemvalue="Application.JavaFrameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56b12c36-3e1d-48f4-b1e1-ff84b41f43bb" name="Changes" comment="" />
+      <created>1769954918174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769954918174</updated>
+      <workItem from="1769954922212" duration="446000" />
+      <workItem from="1769955379170" duration="221000" />
+      <workItem from="1769955619500" duration="30000" />
+      <workItem from="1769956322426" duration="121000" />
+      <workItem from="1769956612345" duration="105000" />
+      <workItem from="1769956734093" duration="1263000" />
+      <workItem from="1769958052661" duration="333000" />
+      <workItem from="1770017387205" duration="5000" />
+      <workItem from="1770170766397" duration="782000" />
+      <workItem from="1770171582808" duration="40000" />
+      <workItem from="1770171646950" duration="98000" />
+      <workItem from="1770171929260" duration="239000" />
+      <workItem from="1770270356173" duration="1756000" />
+      <workItem from="1770272149830" duration="2000" />
+      <workItem from="1770359007308" duration="4345000" />
+      <workItem from="1770971079742" duration="2792000" />
+      <workItem from="1771058382918" duration="838000" />
+      <workItem from="1771145639199" duration="601000" />
+      <workItem from="1771341655996" duration="3109000" />
+      <workItem from="1771403000935" duration="3594000" />
+      <workItem from="1771421439546" duration="593000" />
+      <workItem from="1771471933803" duration="2353000" />
+      <workItem from="1771486640085" duration="5803000" />
+      <workItem from="1771506656799" duration="4102000" />
+      <workItem from="1771511340883" duration="5000" />
+      <workItem from="1771558503045" duration="2198000" />
+      <workItem from="1771562442807" duration="4265000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
