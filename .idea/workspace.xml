@@ -47,6 +47,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -69,6 +70,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.GameLayout (1)">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jkm.game2048.App" />
+      <module name="2048Demo0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jkm.game2048.MainFrame" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jkm.demo0.CarFactory" />
       <module name="ExsistedMod" />
@@ -121,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameLayout (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GameLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jkm.game2048.GameLayout" />
-      <module name="2048Demo0" />
+      <module name="ExsistedMod" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jkm.game2048.*" />
+          <option name="PATTERN" value="com.jkm.game2048.MainFrame" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,7 +150,7 @@
     </configuration>
     <configuration name="GameLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jkm.game2048.GameLayout" />
-      <module name="ExsistedMod" />
+      <module name="2048Demo0" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jkm.game2048.*" />
@@ -226,7 +240,8 @@
       <workItem from="1771506656799" duration="4102000" />
       <workItem from="1771511340883" duration="5000" />
       <workItem from="1771558503045" duration="2198000" />
-      <workItem from="1771562442807" duration="5216000" />
+      <workItem from="1771562442807" duration="8331000" />
+      <workItem from="1771589282162" duration="2429000" />
     </task>
     <servers />
   </component>
