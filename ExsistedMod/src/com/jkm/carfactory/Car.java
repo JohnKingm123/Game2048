@@ -1,5 +1,7 @@
 package com.jkm.carfactory;
 
+import com.jkm.frame.DemoInterfaceImpl;
+
 public class Car {
     private boolean enginStat;
     private double carWeight;

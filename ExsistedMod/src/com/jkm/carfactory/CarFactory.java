@@ -1,5 +1,7 @@
 package com.jkm.carfactory;
 
+import com.jkm.frame.DemoInterfaceImpl;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,6 +19,9 @@ public class CarFactory {
     }
 
     public static void main(String[] args) {
+        DemoInterfaceImpl ringTheBell = new DemoInterfaceImpl();
+        ringTheBell.Ding();
+
         Car auto = new Car(12);
         ReloadUsage ReloadMachine = new ReloadUsage();
         List<ReloadUsage> reloadUsageList = new ArrayList<ReloadUsage>();
