@@ -6,10 +6,10 @@ import java.awt.event.KeyListener;
 
 public class MainFrame extends JFrame implements KeyListener {
     int gameData[][] = new int[][]{
-            {8, 0, 2, 2},
-            {4, 2, 16, 32},
-            {64, 64, 2, 64},
-            {2048, 2, 0, 2}
+            {2, 4, 2, 4},
+            {4, 2, 4, 2},
+            {2, 4, 2, 4},
+            {4, 2, 4, 2}
     };
 
     public MainFrame() {
@@ -70,6 +70,7 @@ public class MainFrame extends JFrame implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {//h j k l 37 38 40 39
         int keyCode = e.getKeyCode();
+        boolean isGameOver = false;
 
         if (keyCode == 37) {
             leftMove();
@@ -79,6 +80,11 @@ public class MainFrame extends JFrame implements KeyListener {
             rightMove();
         } else if (keyCode == 40) {
             downMove();
+        }
+
+        isGameOver = checkFailure();
+        if(isGameOver){
+         System.out.println("GameOver");
         }
 
         paintView();
@@ -162,4 +168,78 @@ public class MainFrame extends JFrame implements KeyListener {
         gameData = newGameData;
     }
 
+    public boolean checkLeftFailure(){
+        int[][] newArray = new int[4][4];
+        copyArray(gameData,newArray);
+        leftMove();
+        for (int i = 0; i < gameData.length; i++) {
+            for (int j = 0; j < gameData[i].length; j++) {
+                if(gameData[i][j]!=newArray[i][j]){
+                    copyArray(newArray,gameData);
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean checkRightFailure(){
+        int[][] newArray = new int[4][4];
+        copyArray(gameData,newArray);
+        rightMove();
+        for (int i = 0; i < gameData.length; i++) {
+            for (int j = 0; j < gameData[i].length; j++) {
+                if(gameData[i][j]!=newArray[i][j]){
+                    copyArray(newArray,gameData);
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean checkUpFailure(){
+        int[][] newArray = new int[4][4];
+        copyArray(gameData,newArray);
+        upMove();
+        for (int i = 0; i < gameData.length; i++) {
+            for (int j = 0; j < gameData[i].length; j++) {
+                if(gameData[i][j]!=newArray[i][j]){
+                    copyArray(newArray,gameData);
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean checkDownFailure(){
+        int[][] newArray = new int[4][4];
+        copyArray(gameData,newArray);
+        downMove();
+        for (int i = 0; i < gameData.length; i++) {
+            for (int j = 0; j < gameData[i].length; j++) {
+                if(gameData[i][j]!=newArray[i][j]){
+                    copyArray(newArray,gameData);
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    public boolean checkFailure(){ //true is for move "failure"
+        if(checkLeftFailure()&&checkRightFailure()&&checkUpFailure()&&checkDownFailure()){
+            return true;
+        }
+        return false;
+    }
+
+    public void copyArray(int[][] srcData , int[][] destData){
+        for (int i = 0; i < srcData.length; i++) {
+            for (int j = 0; j < srcData[i].length; j++) {
+                destData[i][j] = srcData[i][j];
+            }
+        }
+    }
 }
