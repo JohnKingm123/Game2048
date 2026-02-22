@@ -1,15 +1,28 @@
 package com.jkm.game2048;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Random;
 
-public class MainFrame extends JFrame implements KeyListener {
+public class MainFrame extends JFrame implements KeyListener , ActionListener {
     int[][] gameData = new int[4][4];
 
     int loseFlag = 0;
     int score = 0;
+
+    //Grand
+    JMenuBar labelMenuBar = new JMenuBar();
+    //Father
+    JMenu settingsMenu = new JMenu("Settings");
+    JMenu gameOptionsMenu = new JMenu("GameOptions");
+    JMenu aboutMenu = new JMenu("About");
+    //Son
+    JMenuItem fullScreen = new JMenuItem("FullScreen");
+    JMenuItem clearScore = new JMenuItem("ClearScore");
+    JMenuItem quit = new JMenuItem("Quit");
 
     public MainFrame() {
         initMenu();
@@ -38,24 +51,18 @@ public class MainFrame extends JFrame implements KeyListener {
     }
 
     public void initMenu() {
-        //Grand
-        JMenuBar labelMenuBar = new JMenuBar();
-        //Father
-        JMenu settingsMenu = new JMenu("Settings");
-        JMenu gameOptionsMenu = new JMenu("GameOptions");
-        JMenu aboutMenu = new JMenu("About");
-        //Son
-        JMenuItem FullScreen = new JMenuItem("FullScreen");
-        JMenuItem ClearScore = new JMenuItem("ClearScore");
-        JMenuItem Quit = new JMenuItem("Quit");
 
         labelMenuBar.add(settingsMenu);
         labelMenuBar.add(gameOptionsMenu);
         labelMenuBar.add(aboutMenu);
 
-        settingsMenu.add(FullScreen);
-        gameOptionsMenu.add(ClearScore);
-        gameOptionsMenu.add(Quit);
+        settingsMenu.add(fullScreen);
+        gameOptionsMenu.add(clearScore);
+        gameOptionsMenu.add(quit);
+
+        fullScreen.addActionListener(this);
+        clearScore.addActionListener(this);
+        quit.addActionListener(this);
 
         super.setJMenuBar(labelMenuBar);
     }
@@ -138,6 +145,17 @@ public class MainFrame extends JFrame implements KeyListener {
         }
 
         paintView();
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == fullScreen) {
+            System.out.println("FullScreen");
+        } else if (e.getSource() == clearScore) {
+            System.out.println("ClearScore");
+        } else if (e.getSource() == quit) {
+            System.out.println("Quit");
+        }
     }
 
     //Game Logic Functions
@@ -328,4 +346,6 @@ public class MainFrame extends JFrame implements KeyListener {
             gameData[x][y] = randomGenerator.nextBoolean() ? 2 : 4;
         }
     }
+
+
 }
