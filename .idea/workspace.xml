@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56b12c36-3e1d-48f4-b1e1-ff84b41f43bb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2048Demo0/src/com/jkm/game2048/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/2048Demo0/src/com/jkm/game2048/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2048Demo0/src/com/jkm/game2048/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/2048Demo0/src/com/jkm/game2048/MainFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,39 +36,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Demo0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DemoFrame.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GameLayout (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.GameLayout.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.JavaFrameTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SayHello.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringToolBox.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.jkm.carfactory.CarFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.leftMov.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeStorge/Game2048&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/Projects/JavaSE/Game2048/first-test/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.JAVA&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.CarFactory.executor": "Run",
+    "Application.CarTest.executor": "Run",
+    "Application.Demo0.executor": "Run",
+    "Application.DemoFrame.executor": "Run",
+    "Application.GameLayout (1).executor": "Run",
+    "Application.GameLayout.executor": "Run",
+    "Application.HelloWorld.executor": "Debug",
+    "Application.JavaFrameTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SayHello.executor": "Run",
+    "Application.StringToolBox.executor": "Run",
+    "Application.com.jkm.carfactory.CarFactory.executor": "Run",
+    "Application.leftMov.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CodeStorge/Game2048",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/Projects/JavaSE/Game2048/first-test/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\JavaSE\Game2048\2048Demo0" />
@@ -223,6 +224,7 @@
       <workItem from="1771686502222" duration="6899000" />
       <workItem from="1771693640078" duration="1198000" />
       <workItem from="1771694853574" duration="35000" />
+      <workItem from="1771734371749" duration="8200000" />
     </task>
     <servers />
   </component>
