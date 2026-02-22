@@ -37,7 +37,7 @@ public class MainFrame extends JFrame implements KeyListener {
         setDefaultCloseOperation(3);
     }
 
-    public void initMenu(){
+    public void initMenu() {
         //Grand
         JMenuBar labelMenuBar = new JMenuBar();
         //Father
@@ -128,7 +128,7 @@ public class MainFrame extends JFrame implements KeyListener {
         } else if (keyCode == 40) {
             downMove(true);
             generateNum();
-        }else{
+        } else {
             return;
         }
 
@@ -157,7 +157,7 @@ public class MainFrame extends JFrame implements KeyListener {
             for (int x = 0; x < gameData[i].length - 1; x++) {
                 if (gameData[i][x] == gameData[i][x + 1]) {
                     gameData[i][x] *= 2;
-                    if(isRealMove){
+                    if (isRealMove) {
                         score += gameData[i][x];
                     }
                     for (int j = x + 1; j < gameData[i].length - 1; j++) {
@@ -188,7 +188,7 @@ public class MainFrame extends JFrame implements KeyListener {
         clockWise();
     }
 
-    //Check Failure Functions
+    //Check Game Status Functions
     public boolean checkLeftFailure() {
         int[][] newArray = new int[4][4];
         copyArray(gameData, newArray);
@@ -257,6 +257,8 @@ public class MainFrame extends JFrame implements KeyListener {
         return false;
     }
 
+    public boolean checkReachGoal(){return false;}//TODO 2048 has reached
+
     //Tools Functions
     public void horizonalSwap() {
         for (int i = 0; i < gameData.length; i++) {
@@ -319,7 +321,7 @@ public class MainFrame extends JFrame implements KeyListener {
         }
 
         if (spareBoxIndex != 0) {//still got spare box(s)
-            int currentSpareBoxIndex = randomGenerator.nextInt(0,spareBoxIndex);
+            int currentSpareBoxIndex = randomGenerator.nextInt(0, spareBoxIndex);
             int x = spareBoxI[currentSpareBoxIndex];
             int y = spareBoxJ[currentSpareBoxIndex];
 
